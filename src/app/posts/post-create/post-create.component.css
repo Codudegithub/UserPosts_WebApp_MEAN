@@ -1,12 +1,12 @@
-
-main {
-    width: 100%;
+:host {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-
-app-post-list {
+mat-card{
+    margin: 2mm;
     width: 800px;
+}
+mat-form-field {
+    width: 100%;
 }
